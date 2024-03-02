@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(
+        to right top ,
+        #c4a6a6,
+        #6a6aca,
+        black
+    );
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 30vmin 50vmin;
+    padding: 20px;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+  
+  .btn {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  button {
+    background-color: #6a6aca;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  button:hover{
+    background-color: #5151d4;
+    
+  }
+  
+  .para {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .copyCode {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 16px;
+    background-color:rgba(92, 92, 200, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px rgb(9, 7, 7) ;
+  }
+  
+  .copyCode p {
+    margin: 0;
+  }
